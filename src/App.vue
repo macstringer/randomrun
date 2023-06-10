@@ -1,14 +1,17 @@
 <template>
-  <HelloWorld msg="Hi Lucas"/>
+  <HelloWorld msg="Hi Lucas" />
+  <PolygonDrawer></PolygonDrawer>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import PolygonDrawer from './components/PolygonDrawer.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    PolygonDrawer
   }
 }
 </script>
